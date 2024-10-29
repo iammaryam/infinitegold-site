@@ -64,6 +64,9 @@ header {
 }
 
 #header-nav a {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
     color: #FB9A40;
     font-size: 20px;
