@@ -46,14 +46,22 @@ header {
 
 #login {
     position: absolute;
-    top: 70%;
+    top: 68%;
     left: 3%;
     font-size: 40px;
+    padding: 5px;
+    transition: 4s;
+}
+
+#login:hover {
+    background-color: aqua;
+    border-radius: 10px;
 }
 
 #login-a {
     text-decoration: none;
     color: #FB9A40;
+    
 }
 
 #header-nav {
@@ -71,3 +79,8 @@ header {
     color: #FB9A40;
     font-size: 20px;
 }
+
+#header-nav a:hover {
+    font-size: 23px;
+}
+
