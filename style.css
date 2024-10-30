@@ -13,6 +13,7 @@ header {
 }
 
 #logo {
+ position: relative;
  width: 10%;
  padding: 10px;
  margin: 5px;
@@ -22,6 +23,20 @@ header {
     width: 7em;
     height: 7em;
     border-radius: 50%;
+}
+
+#hover-logo {
+    position: absolute;
+    width: 7.1em;
+    height: 7.1em;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    opacity: 0.0001;
+}
+
+#hover-logo:hover {
+    opacity: 1;
 }
 
 #search-box {
@@ -83,4 +98,3 @@ header {
 #header-nav a:hover {
     font-size: 23px;
 }
-
