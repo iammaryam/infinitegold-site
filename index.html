@@ -16,38 +16,77 @@
     </head>
 
     <body>
-        <header>
-            <div id="header-head">
-
-                
-                <!-- ⚠️⚠️I am working here !!!⚠️⚠️ -->
-                <div id="logo">
-                    <img id="logo-img" alt="logo" src="./images/logo.png" />
-                    <img id="hover-logo" src="./images/Infinite Gold.gif" />
+        <section id="section-one">
+            <header>
+                <div id="header-head">
+                    <div id="logo">
+                        <img id="logo-img" alt="logo" src="./images/logo.png" />
+                        <img id="hover-logo" src="./images/Infinite Gold.gif" />
+                    </div>
+                    
+                    <div id="search-box">
+                        <input id="search" role="search" type="text" placeholder="Search ..." />
+                    </div>
                 </div>
-                <!-- ⚠️⚠️I am working here !!!⚠️⚠️ -->
 
-
-                <div id="search-box">
-                    <input id="search" type="text" placeholder="Search ..." />
+                <div id="login">
+                    <a id="login-a" href="./signup-login.html" target="_blank">
+                        <i class="fa-solid fa-right-to-bracket"></i> |
+                        <i class="fa-solid fa-user-plus"></i>
+                    </a>
                 </div>
+
+                <nav id="header-nav">
+                    <a href="">Gold set &nbsp;|&nbsp;</a>
+                    <a href="">Bracelet &nbsp;|&nbsp;</a>
+                    <a href="">Earring &nbsp;|&nbsp;</a>
+                    <a href="">Ring &nbsp;|&nbsp;</a>
+                    <a href="">Necklace &nbsp;|&nbsp;</a>
+                    <a href="">Piercing</a>
+                </nav>
+            </header>
+        </section>
+
+        <section id="section-two">
+            <div id="showcase">
+                <div class="showcase-div"><img src="./images/marriage-rings.png" alt="Two marriage golden rings" /></div>
+                <div class="showcase-div"><img src="./images/kids-gold.png" alt="A kid's bracelet with a panda shape on it" /></div>
+                <div class="showcase-div"><img src="./images/gift-gold.png" alt="A golden giftbox" /></div>
             </div>
 
-            <div id="login">
-                <a id="login-a" href="./signup-login.html" target="_blank">
-                    <i class="fa-solid fa-right-to-bracket"></i> |
-                    <i class="fa-solid fa-user-plus"></i>
-                </a>
+            <div id="showcase-buttons">
+                <div class="showcase-buttons-f-div" onclick="showcaseBClicked('firstButton')"><div class="showcase-buttons-s-div" id="showcase-buttons-s-one"></div></div>
+                <div class="showcase-buttons-f-div" onclick="showcaseBClicked('secondButton')"><div class="showcase-buttons-s-div" id="showcase-buttons-s-two"></div></div>
+                <div class="showcase-buttons-f-div" onclick="showcaseBClicked('thirdButton')"><div class="showcase-buttons-s-div" id="showcase-buttons-s-three"></div></div>
             </div>
+        </section>
 
-            <nav id="header-nav">
-                <a href="">Gold set &nbsp;|&nbsp;</a>
-                <a href="">Bracelet &nbsp;|&nbsp;</a>
-                <a href="">Earring &nbsp;|&nbsp;</a>
-                <a href="">Ring &nbsp;|&nbsp;</a>
-                <a href="">Necklace &nbsp;|&nbsp;</a>
-                <a href="">Piercing</a>
-            </nav>
-        </header>
+        <section id="section-three">
+            <h2 style="text-align: center;color: rgb(70, 69, 69);margin-top: 100px;">Advantages of buying gold from <span style="color: #DFBD69;">InfiniteGold</span></h2>
+            <div id="advantages">
+                <div class="advantages-f-div">
+                    <div class="advantages-img-div"><img src="./images/01.webp" /></div>
+                    <h4 class="advantages-h4">Authentic gold invoice</h4>
+                </div>
+                <div class="advantages-f-div">
+                    <div class="advantages-img-div"><img src="./images/03.webp" /></div>
+                    <h4 class="advantages-h4">Guarantee for product</h4>
+                </div>
+                <div class="advantages-f-div">
+                    <div class="advantages-img-div"><img src="./images/04.webp" /></div>
+                    <h4 class="advantages-h4">High purchase security</h4>
+                </div>
+                <div class="advantages-f-div">
+                    <div class="advantages-img-div"><img src="./images/05.webp" /></div>
+                    <h4 class="advantages-h4">Gold custom made</h4>
+                </div>
+                <div class="advantages-f-div">
+                    <div class="advantages-img-div"><img src="./images/06.webp" /></div>
+                    <h4 class="advantages-h4">Installment purchase</h4>
+                </div>
+            </div>
+        </section>
+
+        <script src="./index.js"></script>
     </body>
 </html>
