@@ -73,18 +73,23 @@ header {
     left: 3%;
     font-size: 40px;
     padding: 7px;
-    transition: 2s;
-}
-
-#login:hover {
-    background-color: aqua;
-    border-radius: 10px;
 }
 
 #login-a {
     text-decoration: none;
     color: #FB9A40;
-    
+    transition: 0.3s;
+    padding-left: 7px;
+}
+
+#login-a:hover {
+    background-color: aqua;
+    border-radius: 20px;
+    background-color: #faa250;
+    color: white;
+    padding: 7px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 10px gray;
 }
 
 #header-nav {
@@ -101,10 +106,14 @@ header {
     text-decoration: none;
     color: #FB9A40;
     font-size: 20px;
+    box-shadow: 2px 2px 10px gray;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 5px;
 }
 
 #header-nav a:hover {
-    font-size: 23px;
+    box-shadow: 2px 2px 10px gray inset;
 }
 
 #showcase {
@@ -118,7 +127,25 @@ header {
 .showcase-div {
 padding-left: 600px;
 padding-right: 600px;
-transition: transform 1s ease;
+transition: transform 0.5s ease;
+position: relative;
+}
+
+.showcase-div a {
+    position: absolute;
+    top: 85%;
+    left: 5.3%;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-weight: 900;
+    font-size: larger;
+    padding: 16px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 13px gray;
+}
+
+.showcase-div a:hover {
+    box-shadow: 2px 3px 13px gray inset;
 }
 
 #showcase-buttons {
