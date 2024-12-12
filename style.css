@@ -116,6 +116,8 @@ header {
     box-shadow: 2px 2px 10px gray inset;
 }
 
+
+
 #showcase {
     margin-top: 30px;
     display: flex;
@@ -179,6 +181,8 @@ position: relative;
     display: block;
 }
 
+
+
 #advantages {
     display: flex;
     justify-content: space-around;
@@ -196,4 +200,269 @@ position: relative;
 .advantages-h4 {
     text-align: center;
     color: rgb(107, 105, 105);
+}
+
+
+
+#gift-boxes {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#gift-boxes > a {
+    height: 300px;
+    width: 300px;
+    background-image: url(./images/gift-closed-box.png);
+    transition: 1s;
+}
+
+#box-earrings:hover {
+    background-image: url(./images/flower-earrings.png);
+}
+
+#box-red-rock-ring:hover {
+    background-image: url(./images/red-rock-ring.png);
+}
+
+#box-birilliant-rings:hover {
+    background-image: url(./images/biriliant-rings.png);
+}
+
+
+
+#section-five {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#animation-sec {
+    display: flex;
+    margin-top: 80px;
+    gap: 60px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 20px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 10px gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.card img {
+    width: 250px;
+    height: 280px;
+}
+
+
+#first-card {
+    transform: translateX(-1400px);
+    animation-name: first-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#second-card {
+    transform: translateX(-1400px);
+    animation-name: second-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#third-card {
+    transform: translateX(-1400px);
+    animation-name: third-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#forth-card {
+    transform: translateX(-1400px);
+    animation-name: forth-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#fifth-card {
+    transform: translateX(-1400px);
+    animation-name: fifth-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#sixth-card {
+    transform: translateX(-1400px);
+    animation-name: sixth-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#seventh-card {
+    transform: translateX(-1400px);
+    animation-name: seventh-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#eigth-card {
+    transform: translateX(-1400px);
+    animation-name: eigth-card;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes first-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translateX(-200px);}
+    35% {transform: translate(0px);}
+    40% {transform: translateX(200px);}
+    45% {transform: translateX(400px);}
+    50% {transform: translateX(600px);}
+    55% {transform: translate(800px);}
+    60% {transform: translate(1000px);}
+    65% {transform: translateX(1200px);}
+    70% {transform: translateX(1400px);}
+    75% {transform: translate(1400px, 450px);}
+    80% {transform: translate(-1400px, 450px);}
+    85% {transform: translate(-1400px);}
+}
+
+@keyframes second-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translateX(-200px);}
+    35% {transform: translate(0px);}
+    40% {transform: translateX(200px);}
+    45% {transform: translateX(400px);}
+    50% {transform: translateX(600px);}
+    55% {transform: translate(800px);}
+    60% {transform: translate(1000px);}
+    65% {transform: translateX(1200px);}
+    70% {transform: translateX(1400px);}
+    75% {transform: translate(1400px, 450px);}
+    80% {transform: translate(-1400px, 450px);}
+    85% {transform: translate(-1400px);}
+}
+
+@keyframes third-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translateX(-200px);}
+    35% {transform: translate(0px);}
+    40% {transform: translateX(200px);}
+    45% {transform: translateX(400px);}
+    50% {transform: translateX(600px);}
+    55% {transform: translate(800px);}
+    60% {transform: translate(1000px);}
+    65% {transform: translateX(1200px);}
+    70% {transform: translateX(1400px);}
+    75% {transform: translate(1400px, 450px);}
+    80% {transform: translate(-1400px, 450px);}
+    85% {transform: translate(-1400px);}
+}
+
+@keyframes forth-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translateX(-200px);}
+    35% {transform: translate(0px);}
+    40% {transform: translateX(200px);}
+    45% {transform: translateX(400px);}
+    50% {transform: translateX(600px);}
+    55% {transform: translate(800px);}
+    60% {transform: translate(1000px);}
+    65% {transform: translateX(1200px);}
+    70% {transform: translateX(1400px);}
+    75% {transform: translate(1400px, 450px);}
+    80% {transform: translate(-1400px, 450px);}
+    85% {transform: translate(-1400px);}
+}
+
+@keyframes fifth-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translateX(-200px);}
+    35% {transform: translateX(0px);}
+    40% {transform: translate(0px, 450px);}
+    45% {transform: translate(-2200px, 450px);}
+    50% {transform: translateX(-2200px);}
+    55% {transform: translateX(-2000px);}
+    60% {transform: translateX(-1800px);}
+    65% {transform: translateX(-1600px);}
+    70% {transform: translateX(-1400px);}
+}
+
+@keyframes sixth-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translateX(-600px);}
+    25% {transform: translateX(-400px);}
+    30% {transform: translate(-400px, 450px);}
+    35% {transform: translate(-2600px, 450px);}
+    40% {transform: translateX(-2600px);}
+    45% {transform: translateX(-2400px);}
+    50% {transform: translateX(-2200px);}
+    55% {transform: translateX(-2000px);}
+    60% {transform: translateX(-1800px);}
+    65% {transform: translateX(-1600px);}
+    70% {transform: translateX(-1400px);}
+}
+
+@keyframes seventh-card {
+    5% {transform: translateX(-1200px);}
+    10% {transform: translateX(-1000px);}
+    15% {transform: translateX(-800px);}
+    20% {transform: translate(-800px, 450px);}
+    25% {transform: translate(-3200px, 450px);}
+    30% {transform: translateX(-3000px);}
+    35% {transform: translateX(-2800px);}
+    40% {transform: translateX(-2600px);}
+    45% {transform: translateX(-2400px);}
+    50% {transform: translateX(-2200px);}
+    55% {transform: translateX(-2000px);}
+    60% {transform: translateX(-1800px);}
+    65% {transform: translateX(-1600px);}
+    70% {transform: translateX(-1400px);}
+}
+
+@keyframes eigth-card {
+    5% {transform: translateX(-1200px);}
+    10%{transform: translate(-1200px, 450px);}
+    15% {transform: translate(-3400px, 450px);}
+    20% {transform: translateX(-3400px);}
+    25% {transform: translateX(-3200px);}
+    30% {transform: translateX(-3000px);}
+    35% {transform: translateX(-2800px);}
+    40% {transform: translateX(-2600px);}
+    45% {transform: translateX(-2400px);}
+    50% {transform: translateX(-2200px);}
+    55% {transform: translateX(-2000px);}
+    60% {transform: translateX(-1800px);}
+    65% {transform: translateX(-1600px);}
+    70% {transform: translateX(-1400px);}
 }
